@@ -1,0 +1,27 @@
+.fullname {
+	display: flex;
+	justify-content: space-between;
+}
+.fullname input {
+	font-size: 14px;
+	width: 210px;
+	padding:5px 10px;
+	color:rgb(34, 34, 34);
+}
+.firstname h2 {
+	margin-bottom: 10px;
+} 
+.lastname h2 {
+	margin-bottom: 10px;
+}
+.p {
+	margin-top: 5px;
+}
+.firstname h2::after {
+	content: ' *';
+	color: rgb(255, 0, 157);
+}
+.label {
+	margin-top: 7px;
+	color: rgb(110, 110, 110);
+}

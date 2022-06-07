@@ -1,0 +1,13 @@
+.phone input {
+	font-size: 14px;
+	width: 210px;
+	padding:5px 10px;
+	color:rgb(34, 34, 34);
+}
+.phone h2 {
+	margin: 30px 0 10px 0;
+}
+.phone h2::after {
+	content: ' *';
+	color: rgb(255, 0, 157);
+}
